@@ -1,0 +1,12 @@
+Place certificate images here using these filenames (referenced in js/data.js):
+- cert-cisco-network-support.jpg
+- cert-cisco-network-devices.jpg
+- cert-website-design.jpg
+- cert-rd-systems.jpg
+- cert-blue-ocean.jpg
+- cert-jpcs-geek-speaks.jpg
+- cert-ai-ethics.jpg
+- cert-scholarship.jpg
+- cert-best-practicum.jpg
+- cert-capstone.jpg
+- cert-deans-list.jpg
