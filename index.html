@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Jewel Hart Arconeda — Programmer &amp; IT Developer</title>
+<meta name="description" content="Portfolio of Jewel Hart P. Arconeda — Programmer, IT Developer, and Technical Support specialist. Web applications, systems development, and IT solutions." />
+<meta name="theme-color" content="#0B0F17" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="Jewel Hart Arconeda — Programmer & IT Developer" />
+<meta property="og:description" content="I build functional, user-focused web applications and IT solutions." />
+<meta property="og:type" content="website" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Skip link for accessibility -->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ================= NAVIGATION ================= -->
+<header class="site-header" id="site-header">
+  <nav class="nav-bar" aria-label="Primary">
+    <a href="#home" class="nav-logo">JH<span>A</span></a>
+
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-menu" id="nav-menu">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#certificates" class="nav-link">Certificates</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <p class="hero-kicker" id="hero-kicker"></p>
+        <h1 class="hero-title">Hi, I'm <span id="hero-name">Jewel Hart P. Arconeda</span></h1>
+        <p class="hero-subtitle" id="hero-role">Programmer | IT Developer | Technical Support</p>
+        <p class="hero-intro" id="hero-intro"></p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Projects</a>
+          <a href="#" id="hero-resume-btn" class="btn btn-outline" download>Download Resume</a>
+        </div>
+
+        <ul class="hero-social" id="hero-social" aria-label="Social links"></ul>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="editor-window">
+          <div class="editor-titlebar">
+            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+            <span class="editor-filename">developer.js</span>
+          </div>
+          <pre class="editor-body"><code><span class="tok-kw">const</span> <span class="tok-var">developer</span> = {
+  <span class="tok-prop">name</span>: <span class="tok-str">"Jewel Hart Arconeda"</span>,
+  <span class="tok-prop">role</span>: <span class="tok-str">"IT Developer"</span>,
+  <span class="tok-prop">stack</span>: [<span class="tok-str">"PHP"</span>, <span class="tok-str">"MySQL"</span>, <span class="tok-str">"JavaScript"</span>],
+  <span class="tok-prop">focus</span>: <span class="tok-str">"clean, reliable systems"</span>,
+  <span class="tok-prop">status</span>: <span class="tok-str">"open to opportunities"</span>,
+};
+
+<span class="tok-kw">function</span> <span class="tok-fn">buildSomethingUseful</span>() {
+  <span class="tok-kw">return</span> developer.stack
+    .map(tool <span class="tok-kw">=&gt;</span> learn(tool))
+    .reduce(ship, <span class="tok-str">"solutions"</span>);
+}</code></pre>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-cue" aria-hidden="true"><span></span></div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section" id="about">
+    <div class="section-inner about-grid">
+      <div class="about-text">
+        <h2 class="section-title">About Me</h2>
+        <p>I'm an Information Technology graduate with hands-on experience across web development, database management, and technical support. My path started with coursework in programming and systems analysis, and grew into real project work — building school management systems, supporting end users, and now working as a programmer for a local government office.</p>
+        <p>I enjoy the full range of IT work: writing the back-end logic that keeps a system reliable, designing databases that make sense, and being the person who can walk into a room and fix what's broken — whether that's a bug in the code or a printer that won't connect.</p>
+        <p>My goal is to keep growing into a well-rounded software developer and IT professional, someone who can be trusted with both the build and the upkeep of the systems people depend on.</p>
+      </div>
+
+      <div class="about-stats" id="about-stats"></div>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section class="section section-alt" id="skills">
+    <div class="section-inner">
+      <h2 class="section-title">Technical Skills</h2>
+      <p class="section-lede">Tools and technologies I use to plan, build, and support software systems.</p>
+      <div class="skills-grid" id="skills-grid"></div>
+      <div class="languages-block">
+        <h3 class="languages-title">Languages</h3>
+        <div class="languages-strip" id="languages-strip"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-lede">A selection of systems and web applications I've designed and built.</p>
+      <div class="projects-grid" id="projects-grid"></div>
+      <div class="section-cta">
+        <a class="btn btn-outline" id="view-more-projects" href="https://github.com/your-username?tab=repositories" target="_blank" rel="noopener">View More Projects</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CERTIFICATES ================= -->
+  <section class="section section-alt" id="certificates">
+    <div class="section-inner">
+      <h2 class="section-title">Certificates &amp; Trainings</h2>
+      <p class="section-lede">Professional development and training completed along the way.</p>
+      <div class="certificates-grid" id="certificates-grid"></div>
+    </div>
+  </section>
+
+  <!-- ================= EXPERIENCE ================= -->
+  <section class="section" id="experience">
+    <div class="section-inner">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline" id="timeline"></div>
+    </div>
+  </section>
+
+  <!-- ================= EDUCATION ================= -->
+  <section class="section section-alt" id="education">
+    <div class="section-inner">
+      <h2 class="section-title">Education</h2>
+      <div class="education-list" id="education-list"></div>
+    </div>
+  </section>
+
+  <!-- ================= SERVICES ================= -->
+  <section class="section" id="services">
+    <div class="section-inner">
+      <h2 class="section-title">What I Can Do</h2>
+      <div class="services-grid" id="services-grid"></div>
+    </div>
+  </section>
+
+  <!-- ================= GITHUB ================= -->
+  <section class="section section-alt" id="github">
+    <div class="section-inner github-grid">
+      <div class="github-summary">
+        <h2 class="section-title">On GitHub</h2>
+        <p class="github-username" id="github-username"></p>
+        <div class="github-stats" id="github-stats"></div>
+        <div class="github-languages" id="github-languages"></div>
+        <a href="#" id="github-visit-btn" class="btn btn-primary" target="_blank" rel="noopener">Visit My GitHub</a>
+      </div>
+      <div class="github-featured">
+        <h3 class="github-featured-title">Featured repositories</h3>
+        <ul id="github-featured-list"></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= RESUME ================= -->
+  <section class="section" id="resume">
+    <div class="section-inner resume-grid">
+      <div>
+        <h2 class="section-title">Resume</h2>
+        <p class="resume-summary" id="resume-summary"></p>
+        <ul class="resume-list">
+          <li><strong>Skills:</strong> PHP, MySQL, JavaScript, Bootstrap, Networking, Technical Support</li>
+          <li><strong>Experience:</strong> Government IT support, freelance/technical support roles</li>
+          <li><strong>Education:</strong> BS Information Technology, Aldersgate College Inc.</li>
+          <li><strong>Certifications:</strong> Cisco Networking Academy and related trainings</li>
+        </ul>
+        <a href="#" id="resume-download-btn" class="btn btn-primary" download>Download Resume PDF</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="section section-alt" id="contact">
+    <div class="section-inner contact-grid">
+      <div class="contact-info">
+        <h2 class="section-title">Contact</h2>
+        <p>Have a project in mind, or an opening for a support/development role? I'd like to hear about it.</p>
+        <ul class="contact-details" id="contact-details"></ul>
+      </div>
+
+      <form class="contact-form" id="contact-form" novalidate>
+        <div class="form-row">
+          <label for="cf-name">Name</label>
+          <input type="text" id="cf-name" name="name" required autocomplete="name" />
+        </div>
+        <div class="form-row">
+          <label for="cf-email">Email</label>
+          <input type="email" id="cf-email" name="email" required autocomplete="email" />
+        </div>
+        <div class="form-row">
+          <label for="cf-subject">Subject</label>
+          <input type="text" id="cf-subject" name="subject" required />
+        </div>
+        <div class="form-row">
+          <label for="cf-message">Message</label>
+          <textarea id="cf-message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= CERTIFICATE MODAL ================= -->
+<div class="modal" id="cert-modal" role="dialog" aria-modal="true" aria-labelledby="cert-modal-title" hidden>
+  <div class="modal-backdrop" data-close-modal></div>
+  <div class="modal-panel">
+    <button class="modal-close" data-close-modal aria-label="Close">&times;</button>
+    <img id="cert-modal-image" src="" alt="" />
+    <h3 id="cert-modal-title"></h3>
+    <p id="cert-modal-issuer"></p>
+    <p id="cert-modal-desc"></p>
+  </div>
+</div>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <p class="footer-name" id="footer-name"></p>
+      <p class="footer-role">Programmer | IT Developer</p>
+    </div>
+    <ul class="footer-social" id="footer-social" aria-label="Social links"></ul>
+  </div>
+  <p class="footer-copy" id="footer-copy"></p>
+</footer>
+
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
